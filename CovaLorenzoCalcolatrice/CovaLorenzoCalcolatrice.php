@@ -17,7 +17,7 @@
 
                 <label for="operando2">Operando 2:</label>
                 <input type="number" id="operando2" name="Operando2"><br><br>
-
+                <p>bobobobob<7p>
             <div class="result-box">
                 <label for="risultato">Risultato:</label>
                 <input type="text" id="risultato" value="<?php echo $risultato ?? ''; ?>" readonly><br><br> 
