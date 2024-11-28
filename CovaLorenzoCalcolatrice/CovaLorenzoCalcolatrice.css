@@ -1,0 +1,36 @@
+.box {
+    width: 700px;
+    height: 170px;
+    border: 1px solid black;
+    position: relative; 
+    padding-top: 20px; 
+    display:flex;
+    gap: 2rem;
+}
+
+.title {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: white;
+    padding: 0 5px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.boxOperandi {
+    width: 150px;
+    height: 80px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.titleOperandi {
+    position: absolute;
+    top:6px;
+    left:320px;
+    background-color: white;
+    padding: 0 5px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
