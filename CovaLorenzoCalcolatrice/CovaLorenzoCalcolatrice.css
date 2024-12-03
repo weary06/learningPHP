@@ -8,6 +8,10 @@
     gap: 2rem;
 }
 
+.inserimentoNumeri{
+    margin-left: 18px;
+}
+
 .title {
     position: absolute;
     top: -10px;
