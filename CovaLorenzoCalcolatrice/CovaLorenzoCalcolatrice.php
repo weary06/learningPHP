@@ -11,12 +11,14 @@
     <div class="box">
         <div>
             <div class="title">Calcolatrice</div>
-            <form action="CovaLorenzoCalcolatrice.php" method="post">
-                <label for="operando1">Operando 1:</label>
-                <input type="number" id="operando1" name="Operando1"><br><br>
+            <div class="inserimentoNumeri">
+                <form action="CovaLorenzoCalcolatrice.php" method="post">
+                    <label for="operando1">Operando 1:</label>
+                    <input type="number" id="operando1" name="Operando1"><br><br>
 
-                <label for="operando2">Operando 2:</label>
-                <input type="number" id="operando2" name="Operando2"><br><br>
+                    <label for="operando2">Operando 2:</label>
+                    <input type="number" id="operando2" name="Operando2"><br><br>
+            </div>
             <div class="result-box">
                 <label for="risultato">Risultato:</label>
                 <input type="text" id="risultato" value="<?php echo $risultato ?? ''; ?>" readonly><br><br> 
@@ -39,6 +41,13 @@
                     <input type="radio" id="/" name="simbolo" value="/">
                     <label for="/"> / </label><br>
                 </div>
+            </div>
+        </div>
+        <div>
+            <div class="boxErrore">
+                <div class="titleErrore">Errore</div>
+                <input class="inputErrore" type="text" id="boxErrore" value="<?php echo $errore ?? ''; ?>" readonly><br>
+
             </div>
         </div>
     </div>

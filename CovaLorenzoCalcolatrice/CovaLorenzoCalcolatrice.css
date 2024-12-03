@@ -1,6 +1,6 @@
 .box {
-    width: 700px;
-    height: 170px;
+    width: 520px;
+    height: 145px;
     border: 1px solid black;
     position: relative; 
     padding-top: 20px; 
@@ -19,8 +19,8 @@
 }
 
 .boxOperandi {
-    width: 150px;
-    height: 80px;
+    width: 110px;
+    height: 85px;
     border: 1px solid black;
     display: flex;
 }
@@ -33,4 +33,27 @@
     padding: 0 5px;
     font-weight: bold;
     font-family: Arial, sans-serif;
+}
+
+.boxErrore {
+    width: 78px;
+    height: 80px;
+    border: 1px solid black;
+    border-right: 1px solid black;
+    display: flex;
+}
+
+.titleErrore {
+    position: absolute;
+    top:6px;
+    left:510px;
+    background-color: white;
+    padding: 0 5px;
+    font-family: Arial, sans-serif;
+}
+
+.inputErrore {
+    border: none;
+    width: 74px;
+    height:75px;
 }
