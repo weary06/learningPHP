@@ -1,13 +1,21 @@
 
 <?php
+function FunzioneCellulare(int $memoria, int $display){
+    $ARR_memoria= array();
+    if ($memoria != 0){
+        for($i=0; $i<5; $i++){
+            $ARR_memoria[$i]=(1/$memoria + rand(1,20));
+            if($i % 2 != 0 ){
+                echo $ARR_memoria[$i] . "<br>";
+            }
+        }
+    }else{
+        echo "non si può dividere per zero";
 
-function FunzioneCasa(int $metratura, int $piano) {
-    $ARR_metratura= array(7/$metratura + rand(1))
+
 }
-FunzioneCasa(5, 10);
-echo . FunzioneCasa(7, 13) . "<br>";
-FunzioneCasa(2, 4);
-echo . FunzioneCasa(5, 8) . "<br>";
-FunzioneCasa(1, 11);
-
+    return $display;
+}
+FunzioneCellulare(5,10);
+FunzioneCellulare(0, 2);
 ?>
